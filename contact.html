@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Navbar Right Corner</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      background-color: #f2f2f2;
+      border-bottom: 2px solid #333;
+    }
+
+    .logo img {
+      height: 100px;
+      display: block;
+    }
+
+    .navbar {
+      margin-left: auto;
+    }
+
+    .navbar ul {
+      list-style: none;
+      display: flex;
+      gap: 25px;
+      margin: 0;
+      padding: 0;
+    }
+
+    .navbar a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    .navbar a:hover {
+      color: #007BFF;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="logo1.jpg" alt="Website Logo">
+    </div>
+    <nav class="navbar">     
+      <ul>
+        <li><a href="index.html">Index</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Us - Sweet Crumbs Bakery</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff8f0;
+      color: #333;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #a0522d;
+    }
+
+    form {
+      margin-top: 20px;
+      text-align: left;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 16px;
+    }
+
+    button {
+      background-color: #ff914d;
+      color: white;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #e37930;
+    }
+
+    .contact-info {
+      margin-top: 30px;
+      font-size: 16px;
+    }
+
+    .social {
+      margin-top: 20px;
+    }
+
+    .social a {
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+      color: #a0522d;
+    }
+
+    footer {
+      margin-top: 40px;
+      padding: 20px;
+      background-color: #333;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Contact Us</h1>
+    <p>We’d love to hear from you! Whether you're placing an order, asking a question, or just saying hello 🍰</p>
+
+    <form action="mailto:pannukaranpreet50@gmail.com" method="post" enctype="text/plain">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+
+    <div class="contact-info">
+      📞 Phone: +91 6280856276<br>
+      📧 Email: <a href="mailto:pannukaranpreet50@gmail.com">pannukaranpreet50@gmail.com</a><br>
+      📍 Address: Main Street, Gurdspur, Punjab
+    </div>
+
+    <div class="social-media">
+      <p>Follow us:</p>
+      <a href="https://youtube.com/@13_karan_pannu?si=vTVmTjUR3kD5eF9Q" target="_blank">📸 YouTube</a>
+      <a href="https://www.instagram.com/13_karan.kour?igsh=MTNubjR2eGlrYmMwYQ=="targrt="_blank">Instagram</a>
+
+    <div class="map" style="margin-top:30px;">
+      <!-- You can embed your bakery's location using Google Maps iframe here -->
+      <p>[Google Map of your bakery goes here]</p>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Sweet Crumbs Bakery | Made with 💕 and flour
+  </footer>
+
+</body>
+</html>
